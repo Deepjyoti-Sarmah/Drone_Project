@@ -1,7 +1,7 @@
 import cv2 as cv 
 
-img = cv.imread('Photos/group2.jpg')
-cv.imshow('Group of people', img)
+img = cv.imread('./Photos/group2.jpg')
+cv.imshow("Group of people", img)
 
 # convert the image to grayscale
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
